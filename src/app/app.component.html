@@ -1,0 +1,30 @@
+
+<div class="container">
+    <button class="btn btn-warning add-new" (click)=showConfirm()>Add New</button>
+    <table class="table table-bordered table-hover">
+       <tr>
+           <th>Address</th>
+           <th>Latitude</th>
+           <th>longitude</th>
+           <th>Area</th>
+           <th>Action</th>
+       </tr>
+        <tr *ngFor="let item of markerAddress">
+            <td>
+                {{item.address}}
+			</td>
+            <td>
+                {{item.latitude}}
+            </td>
+            <td>
+                {{item.longitude}}
+            </td>
+            <td>
+                {{item.area}} m/sqr
+            </td>
+			<td>
+				<button (click)="addNew(item)" class="btn btn-primary">Edit</button>
+			</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,14 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="modal-title">{{title || 'Confirm'}}</span>
+            <button type="button" class="close" (click)="close()">
+                <span>×</span></button>
+        </div>
+        <div class="modal-body">
+            <div class="col-lg-12">
+                <app-google-map (confirm)="fireEvent($event)"></app-google-map>
+            </div>
+        </div>
+    </div>
+</div>

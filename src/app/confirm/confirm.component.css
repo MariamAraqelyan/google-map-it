@@ -1,0 +1,8 @@
+
+.modal-dialog .modal-body {
+  overflow-y: auto;
+}
+
+.modal-title{
+  font-size: 18px;
+}

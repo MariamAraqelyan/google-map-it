@@ -1,0 +1,89 @@
+agm-map {
+  height: 400px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.search-panel, #map {
+  padding: 0;
+  height: 400px;
+}
+
+.search-panel {
+  background: #484848;
+  opacity: 0.9;
+}
+
+.map-selection{
+  color:#fff;
+  margin-top:50px;
+}
+
+.map-selection li{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.map-selection li:first-child{
+  font-size: 18px;
+}
+
+.map-selection li:nth-child(3) > a{
+  color:#db7748;
+}
+
+.btn-selection{
+	  font-size: 14px;
+	  display: block;
+	  position: relative;
+	  margin: 0 auto;
+	  width: 135px;
+}
+
+.reset-selection{
+    background: #a4d8de;
+    color:#64716d;
+	bottom: -60px;
+}
+
+.btn-confirm-selection{
+    border: 1px solid #db7748;
+    color:#db7748;
+    background: transparent;
+}
+
+#search-input{
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+  display: inline-table;
+}
+
+#search-input input{
+  border: 0;
+  box-shadow: none;
+}
+
+#search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+}
+
+#search-input button > span{
+  font-size: 20px;
+}
+
+#search-input button:hover{
+  border: 0;
+  box-shadow: none;
+}
+
+#search-input .glyphicon-search{
+  font-size: 23px;
+}
